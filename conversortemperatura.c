@@ -11,8 +11,8 @@ int main(){
     //aplicando a fórmula de C para K
     grauKelvin = grauCelcius + 273.15;
     
-    printf("Temperatura em Fahrenheit: %f\n", grauFahrenheit);
+    printf("Temperatura em Fahrenheit: %.2f\n", grauFahrenheit);
 
-    printf("Temperatura em Kelvin: %f\n", grauKelvin);
+    printf("Temperatura em Kelvin: %.2f\n", grauKelvin);
 
 }
