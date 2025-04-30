@@ -23,7 +23,7 @@ int main(){
             printf("Você acertou!\n");
         } else {
             printf("Você errou!\n");
-            printf("Número secreto: %d");
+            printf("Número secreto: %d", numeroSecreto);
         }
     break;
     case 2:
